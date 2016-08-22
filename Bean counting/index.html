@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head></head>
+
+<body>
+    <script type="text/javascript">
+    var count;
+
+    function countChar() {
+        var a = prompt("enter the word", "");
+        var res = a.length;
+        console.log("character count=",res);
+    }
+
+    function countBs() {
+        var word = prompt("enter the word", "");
+        var count=0;
+        for (i = 0; i < word.length; i++) {
+            var res = word.charAt(i);
+            if (res == 'b') {
+
+                count++;
+
+            }
+
+
+        }
+        console.log("number of b=",count);
+
+    }
+
+    countChar();
+    countBs();
+    </script>
+</body>
+
+</html>
